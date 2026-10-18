@@ -1,0 +1,131 @@
+name: Bug report
+description: Something in Keyglow does not work, looks wrong or crashes.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. One problem per report, please.
+        Issues here are public. A keyboard screenshot often shows what you typed, the chat above it and your suggestions. Crop or cover anything private, and for typing bugs use a test sentence instead of a real message.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: "Android settings, Apps, Keyglow. The version is near the bottom of that page."
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model
+      description: Android settings, About phone.
+      placeholder: Pixel 8
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      description: Android settings, About phone, Android version.
+      placeholder: "15"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: "Which part of the keyboard?"
+      options:
+        - letters, symbols or number pad
+        - suggestions
+        - autocorrect
+        - glide typing
+        - languages or the globe key
+        - layout
+        - look, themes or launcher match
+        - lighting
+        - emoji panel
+        - clipboard panel
+        - edit panel
+        - tools row
+        - text shortcuts
+        - your words screen
+        - one handed or split keys
+        - number row or terminal row
+        - cursor and delete gestures
+        - vibration or key size
+        - incognito
+        - TalkBack
+        - settings or setup
+        - other
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App you typed in
+      description: The app the field was in. Some bugs only show in one app.
+      placeholder: Messages, Chrome, WhatsApp, Termux
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language and layout
+      description: The language you were on when it happened, and the layout under settings, layout.
+      placeholder: "German, Automatic (QWERTZ)"
+  - type: input
+    id: look
+    attributes:
+      label: Look and theme
+      description: Match my launcher, tiled or terminal, and the theme name. Say which launcher if it is Hyprtile or Phosphor.
+      placeholder: "Match my launcher: Hyprtile, synthwave"
+  - type: dropdown
+    id: autocorrect
+    attributes:
+      label: Autocorrect strength
+      description: Settings, typing help, Autocorrect. Matters most for typing bugs.
+      options:
+        - "Off"
+        - Mild
+        - Normal
+        - Strong
+        - not sure
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, one step per line. For a typing bug, the exact letters you typed.
+      placeholder: |
+        1. Open ...
+        2. Type ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or screen recording
+      description: Drag the file in here. A short recording helps a lot with glide, lighting or gesture bugs.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the open issues and this is not there yet.
+          required: true
+        - label: My screenshots show nothing private, including what I typed.
+          required: true

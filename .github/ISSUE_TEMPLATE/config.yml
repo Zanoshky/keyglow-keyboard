@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User guide
+    url: https://zanoshky.github.io/keyglow-keyboard/
+    about: Setup, languages, looks, typing help and answers to common questions.
+  - name: keyglow.zanoski.com
+    url: https://keyglow.zanoski.com
+    about: The Keyglow website, with the privacy policy and contact details.

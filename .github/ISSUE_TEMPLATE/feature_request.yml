@@ -1,0 +1,60 @@
+name: Feature request
+description: An idea for something Keyglow could do.
+title: "[idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What you want
+      description: Describe the feature in a few lines.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What would it help you do? A real example helps, such as the app you type in or the language you write.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: "Which part of the keyboard?"
+      options:
+        - letters, symbols or number pad
+        - suggestions
+        - autocorrect
+        - glide typing
+        - languages or the globe key
+        - layout
+        - look, themes or launcher match
+        - lighting
+        - emoji panel
+        - clipboard panel
+        - edit panel
+        - tools row
+        - text shortcuts
+        - your words screen
+        - one handed or split keys
+        - number row or terminal row
+        - cursor and delete gestures
+        - vibration or key size
+        - incognito
+        - TalkBack
+        - settings or setup
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Pictures or links
+      description: A sketch, a screenshot or a link to something similar.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the open issues and this idea is not there yet.
+          required: true

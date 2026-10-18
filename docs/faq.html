@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FAQ · Keyglow user guide</title>
+<meta name="description" content="Keyglow questions and troubleshooting.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="FAQ · Keyglow user guide">
+<meta property="og:description" content="Keyglow questions and troubleshooting.">
+<meta property="og:image" content="https://zanoshky.github.io/keyglow-keyboard/img/phone-1-rainbow.webp">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" href="img/icon-192.png">
+<link rel="preload" href="fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="index.html"><img src="img/icon-192.png" alt="" width="32" height="32"><span>keyglow <span class="path">~/faq</span></span></a>
+  <nav class="nav" aria-label="Guide pages"><ul><li><a href="index.html">home</a></li><li><a href="guide.html">guide</a></li><li><a href="faq.html" aria-current="page">faq</a></li><li><a href="report.html">report a bug</a></li></ul></nav>
+</header>
+<main id="main">
+
+<h1>FAQ and troubleshooting<span class="cursor" aria-hidden="true"></span></h1>
+<p class="lede">Quick answers. If yours is not here, <a href="report.html">report it</a>.</p>
+
+<section class="box" id="questions" aria-labelledby="questions-h"><h2 class="tag" id="questions-h">questions</h2>
+<details><summary>Do I need Hyprtile or Phosphor?</summary><div><p>No. Without them, pick the tiled look or the terminal look and any of the 44 themes in Keyglow's settings. With one of them as your home screen, Keyglow follows its theme by itself.</p></div></details>
+<details><summary>Can it send what I type anywhere?</summary><div><p>No. Keyglow has no internet permission, so Android does not let it reach the network at all. It asks for no permissions.</p></div></details>
+<details><summary>Why does Android warn me when I turn it on?</summary><div><p>Android shows that warning for every keyboard you turn on, because a keyboard sees what you type. Keyglow cannot send it anywhere: it has no internet permission.</p></div></details>
+<details><summary>Where do the learned words go?</summary><div><p>Into one private file on your phone. You can look over them, forget any of them, back them up to a file or forget everything at once in the settings. See <a href="guide.html#words">your words screen</a>.</p></div></details>
+<details><summary>Can I move my words to a new phone?</summary><div><p>Yes. In settings, <code>Back up your words to a file</code>, move the file, then <code>Restore your words from a file</code> on the new phone.</p></div></details>
+<details><summary>What does it cost?</summary><div><p>2.49 USD or EUR, paid once on Google Play, and 1.49 in many countries. No subscription and no ads.</p></div></details>
+<details><summary>Why no key sounds?</summary><div><p>A sound on every key gets tiring fast. Keyglow uses a soft vibration instead, from off to strong.</p></div></details>
+<details><summary>Does it work with TalkBack?</summary><div><p>Yes. Every key is its own spoken target: touch to hear it, lift to type. Keys are never smaller than 48 dp, and labels fit at 200% text size.</p></div></details>
+<details><summary>Which Android version do I need?</summary><div><p>Android 7 or newer, on a phone or a tablet.</p></div></details>
+<details><summary>Which languages can I type in?</summary><div><p>23, as many at once as you like. The <a href="guide.html#languages">guide</a> lists them. The globe key switches between them, and suggestions and autocorrect follow the one you are on.</p></div></details>
+<details><summary>Can I stop it learning for a moment?</summary><div><p>Tap incognito in the tools row above the keys. Nothing is learned until you tap it again. Password fields and fields that ask for no learning are never learned from.</p></div></details>
+</section>
+
+<section class="box" id="fix" aria-labelledby="fix-h"><h2 class="tag" id="fix-h">troubleshooting</h2>
+<details><summary>The keyboard went back to Gboard after an update.</summary><div><p>Android can switch back to its own keyboard when Keyglow is updated or stopped. Pick Keyglow again: open Keyglow and tap <code>2. Switch to Keyglow</code>, or use the keyboard button many phones show in the navigation bar while you type.</p></div></details>
+<details><summary>Nothing shows when I tap a field after installing.</summary><div><p>Leave the screen, come back and tap the field again. If it still does not show, open Keyglow and check that both setup steps are ticked.</p></div></details>
+<details><summary>The keys do not wear my launcher's theme.</summary><div><p>Check that <code>look</code> is set to <code>Match my launcher</code>, and that Hyprtile or Phosphor is your home screen. If the line asks you to update your launcher, update it from Google Play.</p></div></details>
+<details><summary>The suggestions are in the wrong language.</summary><div><p>Suggestions and autocorrect follow the language you are on. Tap the globe key next to space to switch. The globe key shows once two or more languages are on.</p></div></details>
+<details><summary>It keeps changing a word I typed on purpose.</summary><div><p>Tap delete right after the fix. That takes it back and Keyglow will not make that fix again. You can also tap your own word in the strip before you press space, add the word under <code>add a word</code>, or set <code>Autocorrect</code> to <code>Mild</code> or <code>Off</code>.</p></div></details>
+<details><summary>It keeps offering a word I never want.</summary><div><p>Hold that suggestion. It moves to <code>never suggested</code> on the your words screen, where you can allow it again.</p></div></details>
+<details><summary>It does not learn a word.</summary><div><p>Check that <code>Learn the words you use</code> is on and incognito is off. Nothing is learned in password fields or in fields that ask for no learning, such as an incognito browser tab. You can add a word by hand under <code>add a word</code>.</p></div></details>
+<details><summary>The lights do not move.</summary><div><p>The lights hold still when animations are off in Android's settings. Also check that the light is not set to <code>Off</code> or <code>Steady</code>.</p></div></details>
+<details><summary>The clipboard panel is empty.</summary><div><p>Turn on <code>Keep what you copy for an hour</code>. Clips go after an hour unless pinned, and nothing copied in a password field, or marked sensitive by the app, is kept.</p></div></details>
+<details><summary>The keys are too small or too big.</summary><div><p>Change <code>Key height</code> and <code>Label size</code> under <code>keys</code>. The number row and the terminal row also take room: turn them off there if you do not need them.</p></div></details>
+<details><summary>I want to start over.</summary><div><p>In settings, tap <code>Forget everything Keyglow learned</code>, then tap again to confirm. Back up your words first if you may want them later.</p></div></details>
+</section>
+
+</main>
+<footer>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.zanoshky.keyglow">Google Play</a></li>
+    <li><a href="https://keyglow.zanoski.com">keyglow.zanoski.com</a></li>
+    <li><a href="https://keyglow.zanoski.com/privacy">Privacy policy</a></li>
+    <li><a href="https://github.com/Zanoshky/keyglow-keyboard/issues">Issues</a></li>
+    <li><a href="https://github.com/Zanoshky/keyglow-keyboard/blob/main/LICENSE">License</a></li>
+  </ul>
+  <p>Guide text and images are shared under CC BY 4.0. The Keyglow app itself is proprietary. Made by Marko Zanoski.</p>
+</footer>
+</div>
+</body>
+</html>
