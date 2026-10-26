@@ -34,6 +34,7 @@ This repo is the public home for Keyglow users: the user guide, bug reports and 
 | [Guide](https://zanoshky.github.io/keyglow-keyboard/guide.html) | Everything from A to Z, in order |
 | [FAQ](https://zanoshky.github.io/keyglow-keyboard/faq.html) | Answers and fixes for common problems |
 | [Report a bug](https://zanoshky.github.io/keyglow-keyboard/report.html) | What to include in a good report |
+| [Sources](https://zanoshky.github.io/keyglow-keyboard/sources.html) | The word lists, word pairs and emoji data in the app, each with its licence |
 
 The guide source is plain HTML in [docs](docs).
 

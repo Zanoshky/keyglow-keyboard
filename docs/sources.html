@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sources and licences · Keyglow user guide</title>
+<meta name="description" content="Everything the Keyglow app ships that it did not make itself: word lists, word pairs, sentences, the offensive word filter and emoji data, each with its licence.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Sources and licences · Keyglow user guide">
+<meta property="og:description" content="The word lists, word pairs, sentences and emoji data in Keyglow, each with its licence.">
+<meta property="og:image" content="https://zanoshky.github.io/keyglow-keyboard/img/phone-1-rainbow.webp">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" href="img/icon-192.png">
+<link rel="preload" href="fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="index.html"><img src="img/icon-192.png" alt="" width="32" height="32"><span>keyglow <span class="path">~/sources</span></span></a>
+  <nav class="nav" aria-label="Guide pages"><ul><li><a href="index.html">home</a></li><li><a href="guide.html">guide</a></li><li><a href="faq.html">faq</a></li><li><a href="report.html">report a bug</a></li></ul></nav>
+</header>
+<main id="main">
+
+<h1>Sources and licences<span class="cursor" aria-hidden="true"></span></h1>
+<p class="lede">Everything the Keyglow app ships that it did not make itself, with its licence. The app's credits, under Settings, Help, link here.</p>
+
+<section class="box" id="words" aria-labelledby="words-h"><h2 class="tag" id="words-h">word lists</h2>
+<p>The 50,000 most used words in 23 languages, with how often each is used.</p>
+<ul class="term">
+  <li>From: <a href="https://github.com/rspeer/wordfreq">wordfreq</a> by Robyn Speer, with data from Wikipedia, OpenSubtitles, news, books and web text.</li>
+  <li>Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</li>
+  <li>Keyglow's word lists are shared under the same licence, CC BY-SA 4.0.</li>
+</ul>
+</section>
+
+<section class="box" id="more-words" aria-labelledby="more-words-h"><h2 class="tag" id="more-words-h">more words</h2>
+<p>Up to 150,000 words in all for languages with many word forms (Croatian, Slovak, Slovenian, Czech, Polish, Finnish, Hungarian, Lithuanian, Latvian, Turkish, Romanian) and 100,000 for the rest, added after the wordfreq words and counted from Wikipedia text. German words written with ss get their ß back where Wikipedia writes them so.</p>
+<ul class="term">
+  <li>From: <a href="https://www.wikipedia.org">Wikipedia</a>, by its contributors, the same article text as the word pairs below.</li>
+  <li>Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</li>
+</ul>
+</section>
+
+<section class="box" id="pairs" aria-labelledby="pairs-h"><h2 class="tag" id="pairs-h">word pairs</h2>
+<p>Which word usually follows which in 23 languages, and which words usually start a sentence, as a table of chances. Counted from about 20 to 115 million words of Wikipedia articles per language, mixed with the everyday sentences of Tatoeba, which carry the chat Wikipedia lacks.</p>
+<ul class="term">
+  <li>From: <a href="https://www.wikipedia.org">Wikipedia</a>, by its contributors, as the cleaned article text of the 1 November 2023 dumps in the <a href="https://huggingface.co/datasets/wikimedia/wikipedia">wikimedia/wikipedia</a> set.</li>
+  <li>Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The <a href="https://dumps.wikimedia.org/legal.html">Wikimedia dump terms</a> license the text under the GFDL and CC BY-SA 4.0.</li>
+  <li>Also from: <a href="https://tatoeba.org">Tatoeba</a>, by its contributors, the <a href="https://downloads.tatoeba.org/exports/per_language/">per language sentence exports</a>. Croatian also reads the Bosnian and Latin script Serbian ones.</li>
+  <li>Tatoeba licence: <a href="https://creativecommons.org/licenses/by/2.0/fr/">CC BY 2.0 FR</a> (some sentences are CC0), as the <a href="https://tatoeba.org/en/terms_of_use">Tatoeba terms of use</a> say.</li>
+  <li>Keyglow's word pair tables are shared under CC BY-SA 4.0.</li>
+</ul>
+</section>
+
+<section class="box" id="filter" aria-labelledby="filter-h"><h2 class="tag" id="filter-h">words never suggested</h2>
+<p>Swear and offensive words: you can still type them and Keyglow keeps them, but never offers them.</p>
+<ul class="term">
+  <li>From: the <a href="https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words">List of Dirty, Naughty, Obscene and Otherwise Bad Words</a> (LDNOOBW).</li>
+  <li>Licence: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</li>
+</ul>
+</section>
+
+<section class="box" id="emoji" aria-labelledby="emoji-h"><h2 class="tag" id="emoji-h">emoji</h2>
+<p>Every emoji with its group, skin tones, name and search words.</p>
+<ul class="term">
+  <li>From: Unicode <a href="https://unicode.org/Public/emoji/latest/emoji-test.txt">emoji-test.txt</a> and the <a href="https://github.com/unicode-org/cldr">CLDR</a> English annotations.</li>
+  <li>Licence: <a href="https://www.unicode.org/license.txt">Unicode License v3</a>.</li>
+</ul>
+</section>
+
+<section class="box" id="sounds" aria-labelledby="sounds-h"><h2 class="tag" id="sounds-h">sounds and fonts</h2>
+<p>No sounds: Keyglow uses haptics only. This guide's font, JetBrains Mono, is under the <a href="fonts/OFL.txt">SIL Open Font License 1.1</a>.</p>
+</section>
+
+</main>
+<footer>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.zanoshky.keyglow">Google Play</a></li>
+    <li><a href="https://keyglow.zanoski.com">keyglow.zanoski.com</a></li>
+    <li><a href="https://keyglow.zanoski.com/privacy">Privacy policy</a></li>
+    <li><a href="https://github.com/Zanoshky/keyglow-keyboard/issues">Issues</a></li>
+    <li><a href="https://github.com/Zanoshky/keyglow-keyboard/blob/main/LICENSE">License</a></li>
+    <li><a href="sources.html" aria-current="page">Sources</a></li>
+  </ul>
+  <p>Guide text and images are shared under CC BY 4.0. The Keyglow app itself is proprietary. Made by Marko Zanoski.</p>
+</footer>
+</div>
+</body>
+</html>
