@@ -82,11 +82,11 @@
 <section class="box" id="board" aria-labelledby="board-h"><h2 class="tag" id="board-h"><span class="n">04</span>the keys and pages</h2>
 <dl class="keys">
   <dt>letters</dt><dd>Your layout, with shift, delete, <code>?123</code>, comma, space, full stop and enter. The enter key shows what the field asks for.</dd>
-  <dt>?123</dt><dd>Numbers and symbols. <code>=\&lt;</code> opens a second symbols page. <code>abc</code> goes back to letters.</dd>
+  <dt>?123</dt><dd>Numbers and symbols. <code>=\&lt;</code> opens a second symbols page. <code>abc</code> goes back to letters. For one symbol, slide from <code>?123</code> onto it and let go: it types the symbol and goes back to the letters.</dd>
   <dt>number pad</dt><dd>Shown by itself in a field that asks for a number.</dd>
   <dt>phone pad</dt><dd>Shown by itself in a field that asks for a phone number.</dd>
   <dt>long press</dt><dd>Hold a letter for its number and its accents. Hold a symbol for its relatives, like <code>€ £ ¥</code> on <code>$</code>.</dd>
-  <dt>shift</dt><dd>Tap once for one capital, tap twice for caps lock. A capital comes by itself at the start of a sentence, if <code>Capital letter at the start of a sentence</code> is on.</dd>
+  <dt>shift</dt><dd>Tap once for one capital, tap twice for caps lock. A capital comes by itself at the start of a sentence, if <code>Capital letter at the start of a sentence</code> is on. With text selected, tap shift to switch it between Title Case, CAPITALS and lower case; it stays selected, so tap again for the next.</dd>
   <dt>emoji key</dt><dd>Next to space, if <code>Emoji key next to space</code> is on.</dd>
 </dl>
 </section>
@@ -99,6 +99,7 @@
 <ul class="term">
   <li>With two or more on, a globe key shows between <code>?123</code> and the comma. Tap it to switch to the next language. TalkBack says the new one.</li>
   <li>Suggestions and autocorrect follow the language you are on, never a mix. If the suggestions look like the wrong language, tap the globe key.</li>
+  <li>The app's own screens show Greek, Cyrillic, Vietnamese and every Latin letter in its own fonts, so text in Polish, Czech, Romanian, Hungarian, Vietnamese, Greek, Ukrainian, Russian and Turkish looks as it should.</li>
   <li>With <code>Keys for a language's own letters, like å ö ä or ñ</code> on, a language's own letters get their own keys at the end of the rows, as on its national board.</li>
 </ul>
 </section>
@@ -140,6 +141,7 @@
   <li>Ran two or more words together? Space splits them: <code>ihavetogo</code> becomes <code>I have to go</code>, <code>idontknow</code> becomes <code>I don't know</code>. Letters that a longer word starts with wait for a tap instead. Not in languages that write words together on purpose, such as German or Swedish.</li>
   <li>Delete right after a correction takes it back, and the word you typed is kept. Keyglow remembers that and does not make that fix again. Tapping your own word over a lit fix does the same.</li>
   <li>Keyglow learns your own words and which word follows which, for next word suggestions. It also learns where your thumb tends to land on each key, so the slips you often make cost less.</li>
+  <li>Tap into a word you already typed and its suggestions show for the whole word. Tap one and it replaces all of that word. Any key lets go of the word first, so typing lands at the cursor.</li>
   <li>Hold a suggestion to never see it again. It goes to <code>never suggested</code> on the <a href="#words">your words screen</a>, where you can allow it again.</li>
 </ul>
 <h3>Switches under typing help</h3>
@@ -155,7 +157,7 @@
 </section>
 
 <section class="box" id="glide" aria-labelledby="glide-h"><h2 class="tag" id="glide-h"><span class="n">10</span>glide typing</h2>
-<p>Slide your finger across the letters of a word and lift. Keyglow reads the word before too, so after <code>I</code> a swipe near j, u, s, t gives <code>just</code>, not a look alike. With <code>Show the glide line</code> on, a line follows your finger. Turn it all off with <code>Glide typing: slide across the letters</code>.</p>
+<p>Slide your finger across the letters of a word and lift. Keyglow reads the word before too, so after <code>I</code> a swipe near j, u, s, t gives <code>just</code>, not a look alike. With <code>Show the glide line</code> on, a line follows your finger. Space and glide go first in line, so they never wait for the suggestions to catch up. Turn it all off with <code>Glide typing: slide across the letters</code>.</p>
 </section>
 
 <section class="box" id="strip" aria-labelledby="strip-h"><h2 class="tag" id="strip-h"><span class="n">11</span>the tools row</h2>
@@ -179,7 +181,7 @@
 
 <section class="box" id="clipboard" aria-labelledby="clipboard-h"><h2 class="tag" id="clipboard-h"><span class="n">13</span>clipboard</h2>
 <p>With <code>Keep what you copy for an hour</code> on, text you copy shows here for an hour. Tap a clip to paste it. Pin a clip to keep it; the bin deletes one; <code>clear</code> removes every clip you did not pin.</p>
-<p>Clips stay in memory, never in a file, unless you pin them. Nothing copied in a password field, or marked sensitive by the app, is kept.</p>
+<p>Clips stay in memory, never in a file, unless you pin them. Pinned clips are locked with a key that never leaves your phone, and Android backup leaves them out. Nothing copied in a password field, or marked sensitive by the app, is kept. On a locked phone the clipboard does not open.</p>
 </section>
 
 <section class="box" id="edit" aria-labelledby="edit-h"><h2 class="tag" id="edit-h"><span class="n">14</span>edit panel</h2>
@@ -190,7 +192,10 @@
 <dl class="keys">
   <dt>slide on space</dt><dd>Moves the cursor. Hold shift too to select.</dd>
   <dt>slide left from delete</dt><dd>Deletes whole words.</dd>
-  <dt>hold delete</dt><dd>Keeps deleting.</dd>
+  <dt>hold delete</dt><dd>Keeps deleting, letter by letter, then whole words if you keep holding. In a search, a selection or a password field it stays on letters.</dd>
+  <dt>shift over selected text</dt><dd>Title Case, CAPITALS, lower case, in turn.</dd>
+  <dt>slide from ?123</dt><dd>Onto a symbol, then let go: one symbol, back to letters.</dd>
+  <dt>tap into a word</dt><dd>Suggestions for the whole word.</dd>
   <dt>hold space</dt><dd>Switches keyboards.</dd>
   <dt>hold a key</dt><dd>Accents and symbols.</dd>
   <dt>shift twice</dt><dd>Caps lock.</dd>
@@ -210,7 +215,8 @@
 <p>Back in settings:</p>
 <ul class="term">
   <li><code>Learn the words you use</code> turns learning off or on.</li>
-  <li><code>Back up your words to a file</code> saves your words, shortcuts and blocked words as a file you choose, such as <code>keyglow-words.json</code>.</li>
+  <li><code>Remember email addresses</code> offers addresses you typed into email fields again there, most used first. Never from incognito or private fields. <code>Forget saved addresses</code> clears them.</li>
+  <li><code>Back up your words to a file</code> saves your words, shortcuts and blocked words as a file you choose, such as <code>keyglow-words.json</code>. Saved emails go in only if you turn on <code>Include saved emails</code> first; it is for that one backup and then turns off again, since the file holds them as plain text.</li>
   <li><code>Restore your words from a file</code> adds them back, on this phone or a new one.</li>
   <li><code>Forget everything Keyglow learned</code> asks for a second tap, then clears it all.</li>
 </ul>
@@ -246,7 +252,9 @@
 <ul class="term">
   <li>No internet permission: Android does not let Keyglow reach the network. Its one permission is vibration, for the key buzz.</li>
   <li>No ads, no account, no analytics.</li>
-  <li>The words it learns, your shortcuts and pinned clips sit in its own private files on your phone, and go when you clear them or remove the app. If Android backup is on, Android may copy them to your own Google account; you can also back them up to a file.</li>
+  <li>The words it learns, your shortcuts, pinned clips and saved email addresses sit in its own private files on your phone, and go when you clear them or remove the app. Pinned clips are also locked with a key that never leaves the phone.</li>
+  <li>If Android backup is on, Android may copy your words, shortcuts and settings to your own Google account. Pinned clips and email addresses never leave the phone that way. You can also back up your words to a file.</li>
+  <li>On a locked phone, such as a reply from a notification, the keys type as usual, but no clips, learned words, saved addresses or recent emoji show, nothing is learned, and the clipboard, settings and other tools stay hidden.</li>
   <li>Nothing is learned in password fields, in fields that ask for no learning, or while incognito is on.</li>
   <li>The theme comes straight from Hyprtile or Phosphor on the same phone.</li>
 </ul>
