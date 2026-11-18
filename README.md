@@ -7,7 +7,7 @@
 <p align="center">A private keyboard for Android with RGB glow, in the colours of your launcher. No internet.</p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.zanoshky.keyglow"><b>Google Play</b></a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.zanoshky.keyglow&referrer=utm_source%3Dkeyglow-guide%26utm_medium%3Dreadme%26utm_campaign%3Dkeyglow-2026-11"><b>Google Play</b></a> ·
   <a href="https://keyglow.zanoski.com"><b>keyglow.zanoski.com</b></a> ·
   <a href="https://zanoshky.github.io/keyglow-keyboard/"><b>User guide</b></a> ·
   <a href="https://github.com/Zanoshky/keyglow-keyboard/issues/new/choose"><b>Report a bug</b></a>
