@@ -21,7 +21,7 @@ This repo is the public home for Keyglow users: the user guide, bug reports and 
 
 ## Quick start
 
-1. Install Keyglow from Google Play. It runs on Android 7 or newer.
+1. Install Keyglow from Google Play. It runs on Android 10 to 17.
 2. Open it and tap Turn on Keyglow. Switch it on in Android's list of keyboards.
 3. Tap Switch to Keyglow and pick it.
 4. Type in the try it field. With Hyprtile or Phosphor as your home screen, the keys already wear your theme.
